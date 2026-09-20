@@ -2,7 +2,7 @@
 
 A comprehensive machine learning project that predicts loan defaults using advanced models (XGBoost and Random Forest) with deep explainability analysis using SHAP, LIME, and Deepchecks.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project demonstrates a complete ML pipeline for loan default prediction, focusing on model transparency and interpretability. It implements state-of-the-art techniques in both predictive modeling and explainable AI.
 
@@ -14,46 +14,46 @@ This project demonstrates a complete ML pipeline for loan default prediction, fo
 - **Model Evaluation**: Comprehensive metrics and visualizations
 - **Production-Ready**: Logging, configuration management, modular design
 
-## 📊 Project Outcomes
+## Project Outcomes
 
 ### Understanding & Concepts
-✓ Significance of loan default prediction in financial decision-making  
-✓ Impact of model predictions on stakeholders  
-✓ Ethical and regulatory aspects of AI models  
+- Significance of loan default prediction in financial decision-making  
+- Impact of model predictions on stakeholders  
+- Ethical and regulatory aspects of AI models  
 
 ### Data Science Skills
-✓ Data preprocessing, cleaning, and feature engineering  
-✓ Handling class imbalance with SMOTE  
-✓ Feature scaling and encoding techniques  
+- Data preprocessing, cleaning, and feature engineering  
+- Handling class imbalance with SMOTE  
+- Feature scaling and encoding techniques  
 
 ### Machine Learning
-✓ XGBoost and Random Forest model implementation  
-✓ Hyperparameter optimization with Optuna  
-✓ Model training, validation, and testing  
+- XGBoost and Random Forest model implementation  
+- Hyperparameter optimization with Optuna  
+- Model training, validation, and testing  
 
 ### Model Evaluation
-✓ Classification metrics (accuracy, precision, recall, F1-score)  
-✓ Confusion matrix analysis  
-✓ ROC-AUC curves and performance comparison  
+- Classification metrics (accuracy, precision, recall, F1-score)  
+- Confusion matrix analysis  
+- ROC-AUC curves and performance comparison  
 
 ### Explainability & Interpretability
-✓ SHAP values for feature impact analysis  
-✓ SHAP dependence plots for feature interactions  
-✓ LIME for individual prediction explanations  
-✓ Feature importance visualization  
+- SHAP values for feature impact analysis  
+- SHAP dependence plots for feature interactions  
+- LIME for individual prediction explanations  
+- Feature importance visualization  
 
 ### Data Quality & Validation
-✓ Deepchecks for comprehensive validation  
-✓ Data drift detection  
-✓ Outlier detection and handling  
-✓ Label quality assessment  
+- Deepchecks for comprehensive validation  
+- Data drift detection  
+- Outlier detection and handling  
+- Label quality assessment  
 
 ### Communication
-✓ Clear visualization of model decisions  
-✓ Stakeholder-friendly reports  
-✓ Actionable insights and recommendations  
+- Clear visualization of model decisions  
+- Stakeholder-friendly reports  
+- Actionable insights and recommendations  
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 my-app/
@@ -84,7 +84,7 @@ my-app/
 └── README.md                      # This file
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Installation
 
@@ -137,7 +137,7 @@ explanations = generate_explanations(
 )
 ```
 
-## 📈 Models & Performance
+## Models & Performance
 
 ### XGBoost
 - **Accuracy**: High predictive power with gradient boosting
@@ -156,7 +156,7 @@ explanations = generate_explanations(
 - F1-Score: 65-77%
 - ROC-AUC: 80-90%
 
-## 🔍 Explainability Methods
+## Explainability Methods
 
 ### SHAP (SHapley Additive exPlanations)
 - **Summary Plots**: Overall feature importance
@@ -174,7 +174,7 @@ explanations = generate_explanations(
 - SHAP-based importance
 - Direct comparison across models
 
-## ✅ Validation & Quality Checks
+## Validation & Quality Checks
 
 ### Deepchecks
 - Data integrity checks
@@ -187,7 +187,7 @@ explanations = generate_explanations(
 - Outlier detection
 - Data drift detection
 
-## 📊 Key Features Influencing Loan Default
+## Key Features Influencing Loan Default
 
 1. **Monthly Income**: Inverse relationship with default (higher income = lower default)
 2. **Credit Utilization**: Strong predictor (higher utilization = higher default)
@@ -195,7 +195,7 @@ explanations = generate_explanations(
 4. **Total Debt**: Debt levels impact default probability
 5. **Employment Type**: Self-employed have higher default rates
 
-## 💡 Recommendations
+## Recommendations
 
 ### For Risk Management
 1. Implement dynamic credit limits based on income
@@ -215,7 +215,7 @@ explanations = generate_explanations(
 3. Implement continuous model monitoring
 4. A/B test intervention strategies
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - **Python 3.9+**
 - **XGBoost**: Gradient boosting framework
@@ -228,7 +228,7 @@ explanations = generate_explanations(
 - **Optuna**: Hyperparameter optimization
 - **Jupyter**: Interactive notebooks
 
-## 📝 Configuration
+## Configuration
 
 Edit `config/config.py` to customize:
 - Model hyperparameters (XGBoost, Random Forest)
@@ -236,15 +236,15 @@ Edit `config/config.py` to customize:
 - Feature lists
 - Output directories
 
-## 🔐 Ethical Considerations
+## Ethical Considerations
 
-✓ **Transparency**: All predictions are explainable
-✓ **Fairness**: No protected attributes directly used
-✓ **Accountability**: Complete audit trail of decisions
-✓ **Regulatory Compliance**: GDPR, Fair Lending regulations
-✓ **Model Monitoring**: Continuous performance tracking
+- **Transparency**: All predictions are explainable
+- **Fairness**: No protected attributes directly used
+- **Accountability**: Complete audit trail of decisions
+- **Regulatory Compliance**: GDPR, Fair Lending regulations
+- **Model Monitoring**: Continuous performance tracking
 
-## 📚 Learning Resources
+## Learning Resources
 
 ### Key Concepts Covered
 - Machine Learning fundamentals
@@ -261,7 +261,7 @@ Edit `config/config.py` to customize:
 - [XGBoost Documentation](https://xgboost.readthedocs.io/)
 - [Deepchecks Documentation](https://docs.deepchecks.com/)
 
-## 🤝 Contributing
+## Contributing
 
 This project is designed for educational purposes. Feel free to:
 - Experiment with different models
@@ -269,11 +269,11 @@ This project is designed for educational purposes. Feel free to:
 - Improve visualizations
 - Extend the pipeline
 
-## 📄 License
+## License
 
 This project is provided as-is for educational purposes.
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 After completing this project, you will understand:
 1. Complete ML pipeline development
@@ -284,7 +284,7 @@ After completing this project, you will understand:
 6. Communication of technical concepts to stakeholders
 7. Production-ready ML code structure
 
-## 🚨 Important Notes
+## Important Notes
 
 - This is a demonstration project with synthetic data
 - Real loan default prediction requires regulatory compliance
@@ -292,7 +292,7 @@ After completing this project, you will understand:
 - Regular model retraining is essential
 - Consider ensemble approaches for production
 
-## 👨‍💼 Contact & Support
+## Contact & Support
 
 For questions or improvements, refer to the documentation and code comments.
 
