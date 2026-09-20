@@ -301,3 +301,5 @@ For questions or improvements, refer to the documentation and code comments.
 **Last Updated**: February 2026  
 **Project Status**: Complete & Functional  
 **Version**: 1.0
+
+Built a loan default classification model using XGBoost and Random Forest with SMOTE-based class balancing to handle imbalanced data. Applied SHAP and LIME to interpret model predictions and identify the key factors influencing loan default risk.
