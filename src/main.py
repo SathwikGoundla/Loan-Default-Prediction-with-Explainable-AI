@@ -11,6 +11,9 @@ import numpy as np
 # Add project root to path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
+import matplotlib
+matplotlib.use('Agg')
+
 from config.config import REPORTS_DIR
 from src.data_loader import prepare_data
 from src.model_training import train_models
